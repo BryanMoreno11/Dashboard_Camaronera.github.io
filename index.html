@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consorcio Camaronera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1E88E5;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 45%; /* Aspect ratio 16:9 */
+            margin-bottom: 20px;
+        }
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Consorcio Camaronera</h1>
+    </header>
+    <div class="container">
+        <div class="iframe-container">
+            <iframe title="consorcioCamaroneraBI" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=0f56fd19-df51-4fa9-9e2d-705b525ef151&autoAuth=true&ctid=a02c480b-bf7d-415a-9f64-82ce75bca5a7" frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+        <p>
+            Bienvenidos al portal del Consorcio Camaronera. Aquí podrás visualizar datos actualizados y relevantes sobre nuestras operaciones.
+        </p>
+        
+    </div>
+</body>
+</html>
